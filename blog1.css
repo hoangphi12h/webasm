@@ -1,0 +1,116 @@
+.menublog1 li{
+    display: inline-block;
+}
+
+.menublog1 ul{
+    padding: 0 0;
+    
+}
+
+section{
+    border-top: 1px solid #fcf3f3;
+    border-bottom: 1px solid #fcf3f3;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.tieude{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.tieude h1{
+    font-size: 26px;
+    line-height: 28px;
+    margin: 0;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #1c1c1c;
+}
+
+.tieude p{
+    text-align: center;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 15px;
+}
+
+.container{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.noidungtieude{
+    margin-top: 50px;
+    font-size: 14px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    font-weight: 500;
+
+}
+
+.imgtieude{
+    margin: 0 auto;
+    width: 480px;
+    height: 360px;
+}
+
+.imgtieude img{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.anhnoidungchinh{
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+}
+
+.anhnoidungchinh img{
+  
+    width: 100%;
+}
+
+.noidungchinh{
+    margin-top: 20px;
+}
+
+.tieudenoidungchinh div{
+    margin: 20px 0;
+}
+
+textarea{
+    width: 100%;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.column50{
+    width: calc(50% - 40px);
+    margin: 0 10px;
+    padding: 0 10px;
+    float: left;
+}
+
+input{
+   
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.guithongtin{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.guithongtin button{
+    width: 15%;
+    float: right;
+}

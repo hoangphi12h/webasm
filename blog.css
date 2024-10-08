@@ -1,0 +1,52 @@
+.banner{
+    background-image: url(img/evo-blog-banner.png);
+    background-size: cover;
+    background-position: center;
+    width: 1476px;
+    height: 360px;
+
+}
+
+.boxbanner{
+    width: 1170px;
+    height: 360px;
+    margin: 0 auto;
+}
+
+.noidung{
+   padding: 108px 108px 0 108px;
+}
+.column33{
+    width: calc(33% - 20px);
+    padding: 20px 10px;
+    float: left;
+}
+
+.column33 h3{
+    color: #1c1c1c;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.67;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.column33 p{
+    font-size: 13px;
+    line-height: 25px;
+    letter-spacing: 0.52px;
+    margin-bottom: 0;
+    color: #1c1c1c;
+    text-align: left;
+}
+
+.imgtintuc img{
+    width: 100%;
+}
+
+#imgsale{
+    padding: 45px 0;
+}

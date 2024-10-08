@@ -1,0 +1,179 @@
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    /* text-transform: uppercase; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #1c1c1c;
+}
+
+.top-header{
+    display: flex;
+}
+
+.column3{
+    width: 33%;
+    height: 150px;
+    /* border: 5px black solid; */
+    margin: 20px 0;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.left a, .left span{
+    font-weight: 500;
+}
+
+.center{
+    text-align: center;
+}
+
+.right{
+    display: flex; 
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.right ul li{
+    display: inline-block;
+}
+
+
+.logo img{
+    width: 320px;
+    height: 150px;
+}
+
+.right ul li a{
+    font-weight: 500;
+    color: #1c1c1c;
+    display: block;
+    position: relative;
+    padding: 0 15px;
+}
+ 
+/* =====================================================menu */
+/* display flex dành cho mẹ thì con mới xài flex auto đc */
+
+.menunav{
+    border-top: 1px solid #fcf3f3;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu li{
+    list-style: none;
+    flex: auto
+}
+
+.menu a{
+    font-weight: 500;
+}
+
+
+
+footer{
+    background-color: #f9f9f9 ;
+    margin-top: 30px;
+}
+
+.column25{
+    width: calc(25% - 20px);
+    float: left;
+    padding: 0 10px;
+}
+
+.menu-footer{
+    list-style: none;
+    padding: 0;
+}
+
+#logo-footer{
+    width: 180px;
+    height: 85px;
+    text-align: center;
+}
+
+.danhsachfooter{
+    padding: 10px 0px;
+    margin: 5px 0;
+}
+
+.danhsachfooter1{
+   text-align: center;
+}
+
+.footerfinish{
+    height: 50px;
+    font-size: 14px;
+    padding-top: 15px;
+}
+
+#logobct{
+    width: 191px;
+    height: 72px;
+}
+
+.menu2{
+    padding: 50px 0;
+}
+
+#span1{
+    margin: 25px 0;
+}
+
+.menu4{
+    padding-top: 50px;
+}
+
+input{
+    height: 40px;
+    background-color: #f8f8f8;
+    line-height: 40px;
+    font-size: 12px;
+    width: 100%;
+    padding: 0 10px;
+    outline: none;
+    background: #f0f0f0;
+    border: 1px solid transparent;
+    margin-bottom: 8px;
+}
+
+button{
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    position: relative;
+    display: inline-block;
+    padding: 14px 28px;
+    line-height: normal;
+    border: 1px solid #1c1c1c;
+    text-transform: uppercase;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #000000;
+    color: #fff;
+}
+
+.menulogo{
+    list-style: none;
+ 
+}
+
+.menulogo li{
+    display: inline-block;
+}
+
+

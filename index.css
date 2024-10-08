@@ -1,0 +1,365 @@
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    /* text-transform: uppercase; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #1c1c1c;
+}
+
+.top-header{
+    display: flex;
+}
+
+.column3{
+    width: 33%;
+    height: 150px;
+    /* border: 5px black solid; */
+    margin: 20px 0;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.left a, .left span{
+    font-weight: 500;
+}
+
+.center{
+    text-align: center;
+}
+
+.right{
+    display: flex; 
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.right ul li{
+    display: inline-block;
+}
+
+
+.logo img{
+    width: 320px;
+    height: 150px;
+}
+
+.right ul li a{
+    font-weight: 500;
+    color: #1c1c1c;
+    display: block;
+    position: relative;
+    padding: 0 15px;
+}
+ 
+/* =====================================================menu */
+/* display flex dành cho mẹ thì con mới xài flex auto đc */
+
+.menunav{
+    border-top: 1px solid #fcf3f3;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu li{
+    list-style: none;
+    flex: auto
+}
+
+.menu a{
+    font-weight: 500;
+}
+.menu a:hover{
+    color:brown;
+}
+/* Tài khoản:*/
+
+/*--------------------------article========================*/
+
+article>img{
+    width: 100%;
+}
+
+.tieude{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.sanpham{
+    display: flex;
+}
+
+.column4{
+    width: 24%;
+    /* border: 1px solid red; */
+    margin: 10px;
+}
+
+.imgsanpham img{
+    width: 100%;
+}
+
+.series{
+    text-align: center;
+    font-size: 12px;
+    line-height: 13px;
+    font-weight: 400;
+    color: #bfbfbf;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    min-height: 13px;
+}
+
+.tensanpham{
+    font-size: 14px;
+    letter-spacing: 2.4px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.price{
+    text-align:center;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    font-weight: 500;
+    color: #746e6e;
+}
+
+.xemtatca{
+    display: flex;
+    justify-content: center;
+}
+
+.end{
+    color: white;
+    background-color: #1c1c1c;
+    margin-top: 15px;
+    position: relative;
+    padding: 14px 28px;
+    line-height: normal;
+    border: 1px solid #1c1c1c;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.end:hover{
+    color: #1c1c1c;
+    background-color: white;
+}
+
+/*=========================================================*/
+
+.tieudetintuc{
+    text-align: center;
+    min-height: 43px;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.67;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.thongtin{
+    text-align: center;
+    font-size: 13px;
+    line-height: 25px;
+    letter-spacing: 0.52px;
+    margin-bottom: 0;
+    color: #1c1c1c;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+/*=========================================================*/
+.cot3{
+    display: flex;
+}
+
+.col3{
+    width: 33%;
+    padding: 0 10px;
+}
+
+
+.banner img{
+    width: 100%;
+}
+
+.xemthem{
+    position: relative;
+    display: inline-block;
+    padding: 14px 28px;
+    line-height: normal;
+    border: 1px solid #000000;
+    border-radius: 0;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    font-weight: 400;
+    font-style: normal;
+    background-color: white;
+    color: black;
+}
+
+.xemthem:hover{
+    background: none;
+    color:white;
+    border: 1px solid white;
+}
+
+.tengiay{
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 31%);
+    line-height: 1.4;
+}
+
+.container1{
+    width: 955px;
+    margin: 0 auto;
+}
+
+.col2{
+    width: calc(50% - 22px);
+    padding: 0 0;
+    float: left;
+    text-align: center;
+}
+
+.box-col2{
+    padding: 72px 0;
+}
+
+#anh-sanpham {
+    width: 270px;
+    height: 270px;
+}
+
+.banner-content {
+    margin-top: -160px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+
+
+.column5{
+    width: 20%;
+    float: left;
+
+}
+
+
+/* =====================================================menu */
+
+footer{
+    background-color: #f9f9f9 ;
+    margin-top: 30px;
+}
+
+.column25{
+    width: calc(25% - 20px);
+    float: left;
+    padding: 0 10px;
+}
+
+.menu-footer{
+    list-style: none;
+    padding: 0;
+}
+
+#logo-footer{
+    width: 180px;
+    height: 85px;
+    text-align: center;
+}
+
+.danhsachfooter{
+    padding: 10px 0px;
+    margin: 5px 0;
+}
+
+.danhsachfooter1{
+   text-align: center;
+}
+
+#logobct{
+    width: 191px;
+    height: 72px;
+}
+
+.menu2{
+    padding: 50px 0;
+}
+
+#span1{
+    margin: 25px 0;
+}
+
+.menu4{
+    padding-top: 50px;
+}
+
+input{
+    height: 40px;
+    background-color: #f8f8f8;
+    line-height: 40px;
+    font-size: 12px;
+    width: 100%;
+    padding: 0 10px;
+    outline: none;
+    background: #f0f0f0;
+    border: 1px solid transparent;
+    margin-bottom: 8px;
+}
+
+button{
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    position: relative;
+    display: inline-block;
+    padding: 14px 28px;
+    line-height: normal;
+    border: 1px solid #1c1c1c;
+    text-transform: uppercase;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #000000;
+    color: #fff;
+}
+
+.menulogo{
+    list-style: none;
+ 
+}
+
+.menulogo li{
+    display: inline-block;
+}
+
